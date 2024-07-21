@@ -46,8 +46,7 @@ pip install -r requirements.txt
 
 Dalam *business dashboard* yang telah dibuat, dilakukan upaya untuk mengeksplorasi feature-feature yang dimiliki oleh murid-murid. Hal ini mencakup usia, pekerjaan dari ayah, pekerjaan dari ibu, jenis kelamin, asal negara, dll. Setelah melakukan visualisasi dari feature-feature tersebut, dilakukan upaya untuk membuat sebuah model machine learning yang bisa memprediksi status seorang pelajar berdasarkan feature tersebut. Model tersebut berupa random forest classifier guna memprediksi. Untuk melihat performa dari model, dibuat sebuah confusion matrix sehingga bisa mencari tahu presisi dan akurasi.
 
-Link 1: http://localhost:3000/public/dashboard/39a70b45-1755-4d78-aabe-0669dbb97f87
-Link 2: https://drive.google.com/file/d/1seW6H69SOzETXibfoT5Y1WPGsWH7525X/view?usp=sharing
+Link: https://drive.google.com/file/d/1seW6H69SOzETXibfoT5Y1WPGsWH7525X/view?usp=sharing
 
 ## Menjalankan Sistem Machine Learning
 Sistem pembelajaran mesin ini menggunakan model Random Forest Classifier, yang merupakan metode ensemble learning untuk klasifikasi, regresi, dan tugas lainnya yang menggabungkan sejumlah pohon keputusan individu untuk meningkatkan akurasi dan mengurangi overfitting. Model ini dikembangkan menggunakan pustaka PySpark dan diunggah ke Streamlit. Model tersebut telah dilatih dengan dataset yang disediakan. Dengan demikian, model ini mampu memprediksi status seorang siswa, apakah dia akan putus studi (dropout), masih terdaftar (enrolled), atau lulus (graduated) berdasarkan karakteristik tertentu. Model machine learning telah berhasil dideploy dan dapat diakses melalui link berikut atau dengan download file dan dijalankan sendiri.
